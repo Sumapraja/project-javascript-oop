@@ -1,0 +1,14 @@
+{
+  "name": "project-javascript-oop",
+  "version": "1.0.0",
+  "description": "Trying stuffs on Object-oriented-programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": "https://github.com/Sumapraja/project-javascript-oop.git",
+  "author": "Sumapraja <irfansumapraja@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
