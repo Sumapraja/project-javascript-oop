@@ -36,7 +36,7 @@ class AgentsContract extends AgentsTeam {
         this.contract = contract
     }
     contracts() {
-        console.log(`${this.name} has decided to move out from ${this.initialTeam} to ${this.lastTeam} for a ${this.year} year(s) ${this.contract} contracts`);
+        console.log(`${this.name} has decided to move out from ${this.initialTeam} to ${this.lastTeam} for a ${this.year} year(s) ${this.getContract()} contracts`);
 
     }
     getYear() {
@@ -69,4 +69,14 @@ console.log(freeAgentsContract.getContract());
 
 
 //---------------exim--------------
+
+let greeting = require('./export')
+
+console.log(greeting('jiji'));
+
+// import sayHello from './export'
+
+// sayHello('Alpha')
+
+// ---------------async / await --------
 
