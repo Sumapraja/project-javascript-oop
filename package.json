@@ -10,5 +10,8 @@
   "repository": "https://github.com/Sumapraja/project-javascript-oop.git",
   "author": "Sumapraja <irfansumapraja@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
